@@ -13,15 +13,29 @@
         required
         maxlength="15"
         type="text"
-        placeholder="What your name?"
-      />
+        placeholder="What your name?" />
       <input type="submit" value="Log In" />
     </form>
 
+    <h1 id="yyddmm"></h1>
     <h2 id="clock">00:00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
+
+    <div class="todo-contents">
+      <form id="todo-form">
+        <input type="text" placeholder="Write a your Todo-List!" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
     <div id="quote">
       <span></span>
+      <span></span>
+    </div>
+
+    <div id="weather">
+      <span></span>
+      <img src="" />
       <span></span>
     </div>
 
@@ -30,5 +44,6 @@
     <script src="js/quote.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
